@@ -1,0 +1,41 @@
+{
+  "name": "@bobbymannino/svelte-charts",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^1.0.0",
+    "@sveltejs/kit": "^1.0.1",
+    "@sveltejs/package": "^1.0.1",
+    "svelte": "^3.55.0",
+    "svelte-check": "^3.0.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.3"
+  },
+  "type": "module",
+  "homepage": "https://bobbymannino.vercel.app/svelte-charts",
+  "description": "A set of simple svelte charts that are: TypeScript First, Auto-Fitting, Animated, Customizable With Props & Easy To Use",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobbymannino/svelte-charts"
+  },
+  "author": {
+    "email": "manninobobby@icloud.com",
+    "name": "Bobby Mannino"
+  },
+  "keywords": [
+    "charts",
+    "graphs",
+    "data",
+    "svelte",
+    "sveltekit"
+  ],
+  "bugs": {
+    "url": "https://github.com/bobbymannino/svelte-charts/issues"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./BarChart.svelte": "./BarChart.svelte",
+    ".": "./index.js"
+  },
+  "svelte": "./index.js"
+}
