@@ -24,7 +24,7 @@ $:
 		{#key data}
 			{#each data as value, index}
 				<rect
-					transition:fade={{ duration: 250, easing: cubicInOut }}
+					transition:fade|local={{ duration: 250, easing: cubicInOut }}
 					fill={color}
 					y={height - height * (value / max)}
 					x={index * (barWidth + spacing)}
