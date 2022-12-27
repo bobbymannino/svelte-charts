@@ -32,7 +32,7 @@ npm install --save-dev @bobbymannino/svelte-charts
 <!-- +page.svelte -->
 
 <script lang="ts">
-	import { BarChart } from "@bobbymannino/svelte-charts";
+	import { BarChart, ScatterGraph } from "@bobbymannino/svelte-charts";
 
 	let data = [500, 800, 24, 58];
 </script>
@@ -40,6 +40,9 @@ npm install --save-dev @bobbymannino/svelte-charts
 <!-- The chart will fit to your container, this is an example one -->
 <div style="width: 100px; height: 100px">
 	<BarChart {data} />
+</div>
+<div style="width: 100px; height: 100px">
+	<ScatterGraph {data} />
 </div>
 ```
 
@@ -67,6 +70,8 @@ npm install --save-dev @bobbymannino/svelte-charts
 | color         | any CSS color as a string       | '#3a4efa'        |
 | rounding      | 'rounded' \| 'pill' \| 'square' | 'rounded'        |
 | data          | number[]                        |                  |
+
+Note: 'rounding' only works on 'BarChart' component
 
 ---
 
